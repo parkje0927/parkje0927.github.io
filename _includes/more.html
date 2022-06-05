@@ -1,0 +1,11 @@
+<div class="container more-container">
+    <h3>{{ site.more_title | default: "외부 활동" }}</h3>
+    <!-- <div class="row clearfix">
+      <div class="col-md-12">
+        {{ site.more_content | strip | markdownify }}
+      </div>
+    </div> -->
+    {% for experience in site.data.more %}
+      {% include {{ experience.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=experience %}
+    {% endfor %}
+  </div>

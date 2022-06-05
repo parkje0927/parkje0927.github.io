@@ -1,0 +1,21 @@
+- layout: left
+  name: 개인 블로그
+  link: https://jjungdev.tistory.com/
+  quote: >
+    개인 기술 블로그
+  description: | # this will include new lines to allow paragraphs
+    * 개인적으로 공부를 하면서 알게 된 지식이나 업무를 하면서 문제를 해결했던 방법들을 정리하는 공간입니다.
+    * 기록하는 습관을 기르기 위해 평소에 정리하고 싶은 주제를 [TIL](https://github.com/parkje0927/TIL) 에 작성한 뒤 글로 정리하고 싶은 글들을 정리해가고 있습니다.
+
+- layout: left
+  name: 인공지능 청년혁신가 양성 과정
+  link: https://github.com/parkje0927/KSA_project
+  quote: >
+    KSA(한국표준협회) 가 주관한 국비과정인 인공지능 과정을 수강, 팀장으로 활동
+  description: | # this will include new lines to allow paragraphs
+    * 데이터에 대한 관심으로 인공지능 과정을 신청하였고, 약 3달 간 기초 이론을 배우고 직접 코드를 작성해보며 실습을 진행했습니다.
+    * 팀장으로 활동을 하며, 주차별로 학습을 한 machine learning, deep learning 개념으로 자율적인 주제를 선정하여 프로젝트를 수행했습니다.
+    
+
+
+    
