@@ -1,3 +1,6 @@
-vendor/
-Gemfile.lock
-.bundle/**
+*.gem
+.bundle
+.sass-cache
+_site
+*.code-workspace
+vendor

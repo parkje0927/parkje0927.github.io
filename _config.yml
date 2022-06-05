@@ -42,66 +42,67 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   다양한 기술에 관심을 가지며 알고리즘을 연구하며 접목시켜 나가 지속적으로 고민하는 사람이 되고 싶습니다. 
 
-content:
+# content:
+
 # Skill Section
 # skill_title: Skill
-- title: Skill
-  layout: list
-  content:
-  - layout: left
-    title: Backend
-    description: | # this will include new lines to allow paragraphs
-      * Java, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, JPA
-      * MySQL, MariaDB
-      * JUnit5
-      * REST Docs
+# - title: Education
+#   layout: list
+#   content:
+#   - layout: left
+#     title: Backend
+#     description: | # this will include new lines to allow paragraphs
+#       * Java, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, JPA
+#       * MySQL, MariaDB
+#       * JUnit5
+#       * REST Docs
 
 # Projects Section
 # projects_title: Projects
 
 # Experience Section
 # experience_title: Experience
-- title: Experience # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-    - layout: left
-      title: 포들리
-      link: https://www.pawdly.com/landing/
-      sub_title: Java & Spring 백엔드 개발자
-      caption: 2021.09 ~ 현재
-      quote: >
-        반려동물이 이용하는 미용 및 동물병원의 편리한 예약과 함께 알림톡 서비스로 일정 관리까지 가능한 서비스
-      description: | # this will include new lines to allow paragraphs
-        * ‘포들리 파트너스센터’ 앱 런칭 및 유저 앱 배포 예정
-        * MVP 초기 단계부터 설계 및 기획, 디자이너, 프론트 개발자와 협업
-        * Java, Spring Boot, Mybatis 를 활용하여 RESTful API 개발
-        * JUnit 단위 테스트 구현
+# - title: Experience # Title for the section
+#   layout: list # Type of content section (list/text)
+#   content:
+#     - layout: left
+#       title: 포들리
+#       link: https://www.pawdly.com/landing/
+#       sub_title: Java & Spring 백엔드 개발자
+#       caption: 2021.09 ~ 현재
+#       quote: >
+#         반려동물이 이용하는 미용 및 동물병원의 편리한 예약과 함께 알림톡 서비스로 일정 관리까지 가능한 서비스
+#       description: | # this will include new lines to allow paragraphs
+#         * ‘포들리 파트너스센터’ 앱 런칭 및 유저 앱 배포 예정
+#         * MVP 초기 단계부터 설계 및 기획, 디자이너, 프론트 개발자와 협업
+#         * Java, Spring Boot, Mybatis 를 활용하여 RESTful API 개발
+#         * JUnit 단위 테스트 구현
 
-    - layout: left
-      title: 시티랩스
-      link: http://www.citylabs.co.kr/
-      sub_title: Java & Spring 백엔드 개발자
-      caption: 2021.07 ~ 2021.09
-      quote: >
-        블록체인 기술을 활용한 정부 사업
-      description: | # this will include new lines to allow paragraphs
-        * Apache Jmeter 테스트 환경 구축
-        * VMWare, Docker 를 활용하여 기존 구축된 웹 사이트의 DB 연결 문제점을 파악한 뒤 local 및 AWS 상에서 테스트 진행
-        * Biometrics 생체인식 프로그램을 테스트 하기 위한 AWS 서버 구축
+#     - layout: left
+#       title: 시티랩스
+#       link: http://www.citylabs.co.kr/
+#       sub_title: Java & Spring 백엔드 개발자
+#       caption: 2021.07 ~ 2021.09
+#       quote: >
+#         블록체인 기술을 활용한 정부 사업
+#       description: | # this will include new lines to allow paragraphs
+#         * Apache Jmeter 테스트 환경 구축
+#         * VMWare, Docker 를 활용하여 기존 구축된 웹 사이트의 DB 연결 문제점을 파악한 뒤 local 및 AWS 상에서 테스트 진행
+#         * Biometrics 생체인식 프로그램을 테스트 하기 위한 AWS 서버 구축
     
-    - layout: left
-      title: 씽즈
-      link: https://monthlything.com/
-      sub_title: Java & Spring 백엔드 인턴
-      caption: 2020.12 ~ 2021.04
-      quote: >
-        여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
-      description: | # this will include new lines to allow paragraphs
-        * 마이 홈 기능 주도적 설계 및 개발
-        * Java, Spring Boot 를 이용한 서버 개발
-        * Spring Data JPA 를 이용하여 데이터 처리
-        * 사내 Admin 페이지 개발
-        * 모바일 개발을 위한 RESTful API 서버 개발
+#     - layout: left
+#       title: 씽즈
+#       link: https://monthlything.com/
+#       sub_title: Java & Spring 백엔드 인턴
+#       caption: 2020.12 ~ 2021.04
+#       quote: >
+#         여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
+#       description: | # this will include new lines to allow paragraphs
+#         * 마이 홈 기능 주도적 설계 및 개발
+#         * Java, Spring Boot 를 이용한 서버 개발
+#         * Spring Data JPA 를 이용하여 데이터 처리
+#         * 사내 Admin 페이지 개발
+#         * 모바일 개발을 위한 RESTful API 서버 개발
 
 # Education Section
 # educaton_title: Education
