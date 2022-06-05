@@ -1,2 +1,2 @@
 ### 이력서 및 포트폴리오 
-- [이력서 주소](https://parkje0927.github.io/){: target="_blank"}
+- <a href="https://parkje0927.github.io/" target="_blank">이력서 링크</a> 입니다.
