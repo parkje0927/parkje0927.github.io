@@ -1,5 +1,5 @@
 - layout: top-middle
-  name: '포들리' 유저 프로토타입 개발
+  name: 포들리 유저 프로토타입 개발
   link: # 노션에 정리하기
   quote: >
     2022.04.20 ~ 현재
@@ -11,7 +11,7 @@
     * Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포
 
 - layout: top-middle
-  name: '포들리' 파트너스센터 앱 api 설계
+  name: 포들리 파트너스센터 앱 api 설계
   link:
   quote: > 
     2021.11.01 ~ 2022.04.01
