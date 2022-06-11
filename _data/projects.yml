@@ -1,5 +1,5 @@
 - layout: top-middle
-  name: 포들리 유저 프로토타입 개발
+  name: '포들리' 유저 프로토타입 개발
   link: # 노션에 정리하기
   quote: >
     2022.04.20 ~ 현재
@@ -10,14 +10,13 @@
     * 리액트 개발자와 협업을 위하여 REST Docs 설계
     * Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포
 
-# - layout: top-middle
-#   name: 레거시 시스템 리팩토링/리엔지니어링
-#   link:
-#   quote: >
-#   description: | # this will include new lines to allow paragraphs
-#     * 인프런 RDS -> Aurora 마이그레이션 (2021.06.01 ~ 2021.06.20)
-#     * [배달의 민족 정산 시스템 AWS 마이그레이션](https://www.youtube.com/watch?v=3ynQeAZpk4Y) (2020.06.01 ~ 2020.11.20)
-#     * [배달의 민족 주문 시스템 개편](https://jojoldu.tistory.com/373) (2018.08.01 ~ 2018.10.31)
-#     * [배달의 민족 포인트 시스템 개편](http://bit.ly/2EcIXIA) (2018.04.01 ~ 2018.07.31)
-#     * [배달의 민족 정산 시스템 개편](http://bit.ly/2ksIEQB) (2017.01.01 ~ 2017.08.17)
-
+- layout: top-middle
+  name: '포들리' 파트너스센터 앱 api 설계
+  link:
+  quote: > 
+    2021.11.01 ~ 2022.04.01
+  description: | 
+    * 화면 분석 및 MVP 빠르게 개발하여 가설 검증 단계 진행
+    * 소셜 로그인 및 알림톡, 푸쉬 기능을 더하여 고객 등록, 예약 등록, 재예약 문의 등록 플로우 개발
+    * 리액트 개발자와 협업하며 리팩토링 진행
+    * Spring Boot, MyBatis, Spring Security, JWT 기술 활용
