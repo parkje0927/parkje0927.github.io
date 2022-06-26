@@ -1,7 +1,9 @@
 - layout: left
   company: Backend
   description: | # this will include new lines to allow paragraphs
-    * Java, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, JPA
+    * Java, Spring Boot
+    * Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis
+    * JWT
     * MySQL, MariaDB
     * JUnit5, REST Docs
 

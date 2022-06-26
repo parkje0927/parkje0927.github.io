@@ -1,14 +1,15 @@
 - layout: top-middle
   name: 포들리 유저 프로토타입 개발
-  link: # 노션에 정리하기
+  link: https://www.notion.so/398856cea6e14d469c2f6cd51bb3e003
   quote: >
-    2022.04.20 ~ 현재
+    2022.04.20 ~ 2022.06.24
   description: | # this will include new lines to allow paragraphs
     * 도메인 추출, DB 설계 진행
     * NS 차트, 활동 다이어그램 등을 활용하여 프로젝트 설계
-    * JWT 토큰을 관리하기 위한 Spring Redis 활용
-    * 리액트 개발자와 협업을 위하여 REST Docs 설계
+    * JWT 토큰을 관리하기 위한 **Spring Redis** 활용
+    * 리액트 개발자와 협업을 위하여 문서화, TDD 를 통한 **REST Docs** 활용
     * Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포
+    * Firebase, 오픈 API 연동
 
 - layout: top-middle
   name: 포들리 파트너스센터 앱 api 설계
@@ -19,4 +20,24 @@
     * 화면 분석 및 MVP 빠르게 개발하여 가설 검증 단계 진행
     * 소셜 로그인 및 알림톡, 푸쉬 기능을 더하여 고객 등록, 예약 등록, 재예약 문의 등록 플로우 개발
     * 리액트 개발자와 협업하며 리팩토링 진행
-    * Spring Boot, MyBatis, Spring Security, JWT 기술 활용
+    * Spring Boot, MyBatis, Spring Security, Spring Batch, JWT 기술 활용
+    * Firebase, 오픈 API 연동
+
+- layout: top-middle
+  name: 인공지능 과정 프로젝트
+  link: 
+  quote: > 
+    2021.05.01 ~ 2021.07.01
+  description: | 
+    * 
+
+- layout: top-middle
+  name: 씽즈 '마이홈' 기능 설계
+  link: 
+  quote: > 
+    2021.01.01 ~ 2021.02.01
+  description: | 
+    * 기존 데이터를 취합하여 생리 건강 카테고리별 계산 방법을 고민한 뒤 알고리즘 적용
+    * 서비스 운영 중인 앱 성능을 고려하여 10만개의 데이터를 페이징하여 처리, JPA 를 활용
+    * 예외 상황 별 테스트 진행한 뒤, 카테고리별 평균, 최근 데이터를 계산하여 새로운 table 에 이관
+    * Spring Boot, Spring Data JPA, Querydsl, MySQL 기술 활용
