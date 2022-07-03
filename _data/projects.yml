@@ -6,13 +6,13 @@
   description: | # this will include new lines to allow paragraphs
     * 도메인 추출, DB 설계 진행
     * NS 차트, 활동 다이어그램 등을 활용하여 프로젝트 설계
-    * JWT 토큰을 관리하기 위한 **Spring Redis** 활용
+    * JWT 토큰을 관리하기 위한 **Spring Data Redis** 활용
     * 리액트 개발자와 협업을 위하여 문서화, TDD 를 통한 **REST Docs** 활용
     * Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포
     * Firebase, 오픈 API 연동
 
 - layout: top-middle
-  name: 포들리 파트너스센터 앱 api 설계
+  name: 포들리 파트너스센터 API 개발
   link:
   quote: > 
     2021.11.01 ~ 2022.04.01
@@ -30,7 +30,15 @@
     2021.05.01 ~ 2021.07.01
   description: | 
     * 머신러닝 이론을 학습한 뒤 '부동산 물건 가격 예측' 프로젝트 진행
-    * 
+    * '서울 열린 데이터 광장'에서 2020년 데이터를 활용하여 부동산 물건 금액에 가장 큰 영향을 미치는 요소를 파악
+    * preprocessing, modeling 으로 역할을 나누어 진행하였고 여기서 전처리를 담당
+    * null 데이터, 이상치는 제외하여 분석
+    * 예측 모델은 Linear Regression, Random Forest, Decision Tree 총 3개를 활용
+    * '건물 면적'이 '물건 금액'에 가장 큰 영향을 미치는 요소임을 확인
+
+    * 딥러닝 이론을 학습한 뒤 '와인 Red, White 타입 분류 및 와인 품질에 가장 많은 영향을 미치는 요소 예측'문제를 진행
+    * down-sampling 을 진행한 뒤, Logistic, DNN 등 모델을 활용
+    * 분류의 정확도가 높았던 모델은 DNN 이었으며, 예측은 전반적으로 정확도가 낮았음.
 
 - layout: top-middle
   name: 씽즈 '마이홈' 기능 설계

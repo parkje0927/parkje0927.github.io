@@ -6,9 +6,10 @@
   quote: >
     반려동물이 이용하는 미용 및 동물병원의 편리한 예약과 함께 알림톡 서비스로 일정 관리까지 가능한 서비스
   description: | # this will include new lines to allow paragraphs
-    * ‘포들리 파트너스센터’ 앱 런칭 및 유저 앱 배포 예정
+    * ‘포들리 파트너스센터’ 앱 런칭 및 유저앱 프로토타입 개발
     * MVP 초기 단계부터 설계 및 기획, 디자이너, 프론트 개발자와 협업
     * Java, Spring Boot, Mybatis 를 활용하여 RESTful API 개발
+    * MariaDB, Spring Data Redis 활용
     * JUnit 단위 테스트 구현
 
 - layout: left
