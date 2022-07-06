@@ -12,6 +12,8 @@
     * Firebase, 오픈 API 연동
 
 - layout: top-middle
+
+- layout: top-middle
   name: 포들리 파트너스센터 API 개발
   link:
   quote: > 
@@ -22,6 +24,8 @@
     * 리액트 개발자와 협업하며 리팩토링 진행
     * Spring Boot, MyBatis, Spring Security, Spring Batch, JWT 기술 활용
     * Firebase, 오픈 API 연동
+
+- layout: top-middle
 
 - layout: top-middle
   name: 인공지능 과정 프로젝트
@@ -39,6 +43,8 @@
     * 딥러닝 이론을 학습한 뒤 '와인 Red, White 타입 분류 및 와인 품질에 가장 많은 영향을 미치는 요소 예측'문제를 진행
     * down-sampling 을 진행한 뒤, Logistic, DNN 등 모델을 활용
     * 분류의 정확도가 높았던 모델은 DNN 이었으며, 예측은 전반적으로 정확도가 낮았음.
+
+- layout: top-middle
 
 - layout: top-middle
   name: 씽즈 '마이홈' 기능 설계

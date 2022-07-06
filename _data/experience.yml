@@ -13,6 +13,8 @@
     * JUnit 단위 테스트 구현
 
 - layout: left
+
+- layout: left
   company: 시티랩스
   link: http://www.citylabs.co.kr/
   job_title: Java & Spring 백엔드 개발자
@@ -24,6 +26,8 @@
     * VMWare, Docker 를 활용하여 기존 구축된 웹 사이트의 DB 연결 문제점을 파악한 뒤 local 및 AWS 상에서 테스트 진행
     * Biometrics 생체인식 프로그램을 테스트 하기 위한 AWS 서버 구축
  
+- layout: left
+
 - layout: left
   company: 씽즈
   link: https://monthlything.com/
@@ -38,3 +42,4 @@
     * 사내 Admin 페이지 개발
     * 모바일 개발을 위한 RESTful API 서버 개발
 
+- layout: left

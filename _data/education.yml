@@ -1,6 +1,18 @@
 # - layout: top-middle
 #   name: 숙명여자대학교 행정/경제학 전공
 #   dates: 2014.03 ~ 2019.02
+
+# - layout: top-middle
+#   name: 하남고등학교 졸업
+#   dates: 2011.03 ~ 2014.02
    
 
-    
+- layout: left
+  job_title: 2014.03 ~ 2019.02
+  description: | # this will include new lines to allow paragraphs
+    * 숙명여자대학교 행정/경제학 전공
+
+- layout: left
+  job_title: 2011.03 ~ 2014.02
+  description: | # this will include new lines to allow paragraphs
+    * 하남고등학교 졸업
