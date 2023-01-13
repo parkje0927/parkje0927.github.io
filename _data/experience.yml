@@ -1,4 +1,17 @@
 - layout: left
+  company: 줌인터넷(ZUM Internet)
+  link: https://www.zuminternet.com/
+  job_title: 포털개발팀 포털백엔드 개발파트 백엔드 개발
+  dates: 2022.08 ~ 현재
+  quote: >
+    
+  description: | # this will include new lines to allow paragraphs
+    * 레거시 프로젝트인 리다이렉트 서버와 타겟팅 서버 리팩토링 및 AWS 이관, Spring Data Redis, EhCache, Logback 활용
+    * 쇼핑줌 Spring Batch 작업
+ 
+- layout: left
+
+- layout: left
   company: 포들리
   link: https://www.pawdly.com/landing/
   job_title: Java & Spring 백엔드 개발자
@@ -14,32 +27,32 @@
 
 - layout: left
 
-- layout: left
-  company: 시티랩스
-  link: http://www.citylabs.co.kr/
-  job_title: Java & Spring 백엔드 개발자
-  dates: 2021.07 ~ 2021.09
-  quote: >
-    블록체인 기술을 활용한 정부 사업
-  description: | # this will include new lines to allow paragraphs
-    * Apache Jmeter 테스트 환경 구축
-    * VMWare, Docker 를 활용하여 기존 구축된 웹 사이트의 DB 연결 문제점을 파악한 뒤 local 및 AWS 상에서 테스트 진행
-    * Biometrics 생체인식 프로그램을 테스트 하기 위한 AWS 서버 구축
+# - layout: left
+#   company: 시티랩스
+#   link: http://www.citylabs.co.kr/
+#   job_title: Java & Spring 백엔드 개발자
+#   dates: 2021.07 ~ 2021.09
+#   quote: >
+#     블록체인 기술을 활용한 정부 사업
+#   description: | # this will include new lines to allow paragraphs
+#     * Apache Jmeter 테스트 환경 구축
+#     * VMWare, Docker 를 활용하여 기존 구축된 웹 사이트의 DB 연결 문제점을 파악한 뒤 local 및 AWS 상에서 테스트 진행
+#     * Biometrics 생체인식 프로그램을 테스트 하기 위한 AWS 서버 구축
  
-- layout: left
+# - layout: left
 
-- layout: left
-  company: 씽즈
-  link: https://monthlything.com/
-  job_title: Java & Spring 백엔드 인턴
-  dates: 2020.12 ~ 2021.04
-  quote: >
-    여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
-  description: | # this will include new lines to allow paragraphs
-    * 마이 홈 기능 주도적 설계 및 개발
-    * Java, Spring Boot 를 이용한 서버 개발
-    * Spring Data JPA 를 이용하여 데이터 처리
-    * 사내 Admin 페이지 개발
-    * 모바일 개발을 위한 RESTful API 서버 개발
+# - layout: left
+#   company: 씽즈
+#   link: https://monthlything.com/
+#   job_title: Java & Spring 백엔드 인턴
+#   dates: 2020.12 ~ 2021.04
+#   quote: >
+#     여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
+#   description: | # this will include new lines to allow paragraphs
+#     * 마이 홈 기능 주도적 설계 및 개발
+#     * Java, Spring Boot 를 이용한 서버 개발
+#     * Spring Data JPA 를 이용하여 데이터 처리
+#     * 사내 Admin 페이지 개발
+#     * 모바일 개발을 위한 RESTful API 서버 개발
 
-- layout: left
+# - layout: left

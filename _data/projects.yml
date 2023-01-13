@@ -45,13 +45,13 @@
 
 - layout: top-middle
 
-- layout: top-middle
-  name: 씽즈 '마이홈' 기능 설계
-  link: 
-  quote: > 
-    2021.01.01 ~ 2021.02.01
-  description: | 
-    * 기존 데이터를 취합하여 생리 건강 카테고리별 계산 방법을 고민한 뒤 알고리즘 적용
-    * 서비스 운영 중인 앱 성능을 고려하여 10만개의 데이터를 페이징하여 처리, Spring Data JPA 를 활용
-    * 예외 상황 별 테스트 진행한 뒤, 카테고리별 평균, 최근 데이터를 계산하여 새로운 table 에 이관
-    * Spring Boot, Spring Data JPA, Querydsl, MySQL 기술 활용
+# - layout: top-middle
+#   name: 씽즈 '마이홈' 기능 설계
+#   link: 
+#   quote: > 
+#     2021.01.01 ~ 2021.02.01
+#   description: | 
+#     * 기존 데이터를 취합하여 생리 건강 카테고리별 계산 방법을 고민한 뒤 알고리즘 적용
+#     * 서비스 운영 중인 앱 성능을 고려하여 10만개의 데이터를 페이징하여 처리, Spring Data JPA 를 활용
+#     * 예외 상황 별 테스트 진행한 뒤, 카테고리별 평균, 최근 데이터를 계산하여 새로운 table 에 이관
+#     * Spring Boot, Spring Data JPA, Querydsl, MySQL 기술 활용
