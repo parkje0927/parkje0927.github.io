@@ -1,4 +1,14 @@
 - layout: top-middle
+  name: 레거시 시스템 리팩토링
+  link: 
+  quote: >  
+
+  description: | # this will include new lines to allow paragraphs
+    * [줌인터넷 리다이렉트 서버 리팩토링 및 AWS 마이그레이션](https://zuminternet.github.io/redirect-refactoring/)
+
+- layout: top-middle
+
+- layout: top-middle
   name: 포들리 유저앱 API 개발
   link: https://www.notion.so/398856cea6e14d469c2f6cd51bb3e003
   quote: >
