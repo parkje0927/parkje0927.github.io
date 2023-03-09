@@ -8,6 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     * 레거시 프로젝트인 리다이렉트 서버와 타겟팅 서버 리팩토링 및 AWS 이관, Spring Data Redis, EhCache, Logback 활용
     * 쇼핑줌 Spring Batch 작업
+    * 앱/웹 푸시 클릭, 노출 pv 통계를 위한 리다이렉트 서버와 푸시 서버와의 연동 진행
  
 - layout: left
 

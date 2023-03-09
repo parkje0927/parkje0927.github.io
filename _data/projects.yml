@@ -2,9 +2,10 @@
   name: 레거시 시스템 리팩토링
   link: 
   quote: >  
-
+    2022.08.16 ~ 
   description: | # this will include new lines to allow paragraphs
     * [줌인터넷 리다이렉트 서버 리팩토링 및 AWS 마이그레이션](https://zuminternet.github.io/redirect-refactoring/)
+    * 타겟팅 시스템 리팩토링 : 줌 포털 사이트에서 쿠키값을 활용하여 타겟팅 데이터를 Aerospike 에 적재하고 있었으나 이를 Redis 저장소로 변경하면서 전체적인 리팩토링을 담당
 
 - layout: top-middle
 
