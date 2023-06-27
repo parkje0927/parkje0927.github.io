@@ -6,9 +6,27 @@
   quote: >
     
   description: | # this will include new lines to allow paragraphs
-    * 레거시 프로젝트인 리다이렉트 서버와 타겟팅 서버 리팩토링 및 AWS 이관, Spring Data Redis, EhCache, Logback 활용
-    * 쇼핑줌 Spring Batch 작업
+    * [줌인터넷 리다이렉트 서버 리팩토링 및 AWS 마이그레이션](https://zuminternet.github.io/redirect-refactoring/)
     * 앱/웹 푸시 클릭, 노출 pv 통계를 위한 리다이렉트 서버와 푸시 서버와의 연동 진행
+    * 타겟팅 시스템 리팩토링 : 줌 포털 사이트에서 쿠키값을 활용하여 타겟팅 데이터를 Aerospike 에 적재하고 있었으나 이를 Redis 저장소로 변경하면서 전체적인 리팩토링을 담당
+    * Spring Boot, Spring Data JPA, Querydsl, MySQL, EhCache, Logback, Redis, Aerospike
+
+    ---
+    * 투자 뉴스레터 구독자 모집 및 레터 전송 기능
+    * 예약 발송을 위해서 DynamoDB 에 예약일과 template 을 등록한 뒤 Spring Boot Batch 를 활용하여 cron 실행, 예약 발송 건이 있을 경우 이메일 RabbitMQ 에 들어가도록 구현
+    * 구독자, 발신인, 구독 취소 등 정보를 활용하기 위한 뉴스레터 CMS 구현
+    * Spring Boot, Spring Data JPA, Querydsl, MySQL, DynamoDB, RabbitMQ, Vue.js
+
+    ---
+    * 쇼핑 batch 서스테이닝 업무
+    * 쇼핑 데이터 관련 batch 시스템 관리 및 url 추가 업무 진행
+    * Spring Boot, Spring Batch
+
+    ---
+    * 회원, 댓글, 고객센터 서스테이닝 업무
+    * 댓글 모듈 숨김 처리 진행
+    * 회원 서비스 관련 이슈 처리
+    * Spring Boot, Spring Security, javascript, Vue.js
  
 - layout: left
 
@@ -16,15 +34,23 @@
   company: 포들리
   link: https://www.pawdly.com/landing/
   job_title: Java & Spring 백엔드 개발자
-  dates: 2021.09 ~ 현재
+  dates: 2021.09 ~ 2022.06
   quote: >
     반려동물이 이용하는 미용 및 동물병원의 편리한 예약과 함께 알림톡 서비스로 일정 관리까지 가능한 서비스
   description: | # this will include new lines to allow paragraphs
-    * ‘포들리 파트너스센터’ 앱 런칭 및 유저앱 프로토타입 개발
-    * MVP 초기 단계부터 설계 및 기획, 디자이너, 프론트 개발자와 협업
-    * Java, Spring Boot, Mybatis 를 활용하여 RESTful API 개발
-    * MariaDB, Spring Data Redis 활용
-    * JUnit 단위 테스트 구현
+    * 포들리 유저앱 API 개발(https://www.notion.so/398856cea6e14d469c2f6cd51bb3e003)
+    * 도메인 추출, DB 설계 진행, NS 차트 및 활동 다이어그램 등을 활용하여 프로젝트 설계
+    * JWT 토큰을 관리하기 위한 **Spring Data Redis** 활용
+    * 리액트 개발자와 협업을 위하여 문서화, TDD 를 통한 **REST Docs** 활용
+    * Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포
+    * Firebase, 오픈 API 연동
+
+    ---
+    * 포들리 파트너스센터 API 개발
+    * 화면 분석 및 MVP 빠르게 개발하여 가설 검증 단계 진행
+    * 소셜 로그인 및 알림톡, push 기능을 더하여 고객 등록, 예약 등록, 재예약 문의 등록 플로우 개발
+    * Spring Boot, MyBatis, Spring Security, Spring Batch, JWT 기술 활용
+    * Firebase, 오픈 API 연동
 
 - layout: left
 
@@ -42,18 +68,23 @@
  
 # - layout: left
 
-# - layout: left
-#   company: 씽즈
-#   link: https://monthlything.com/
-#   job_title: Java & Spring 백엔드 인턴
-#   dates: 2020.12 ~ 2021.04
-#   quote: >
-#     여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
-#   description: | # this will include new lines to allow paragraphs
-#     * 마이 홈 기능 주도적 설계 및 개발
-#     * Java, Spring Boot 를 이용한 서버 개발
-#     * Spring Data JPA 를 이용하여 데이터 처리
-#     * 사내 Admin 페이지 개발
-#     * 모바일 개발을 위한 RESTful API 서버 개발
+- layout: left
+  company: 씽즈
+  link: https://monthlything.com/
+  job_title: Java & Spring 백엔드 인턴
+  dates: 2020.12 ~ 2021.04
+  quote: >
+    여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
+  description: | # this will include new lines to allow paragraphs
+    * 마이 홈 기능 주도적 설계 및 개발
+    * 사내 Admin 페이지 개발
+    * 모바일 개발을 위한 RESTful API 서버 개발
 
-# - layout: left
+    ---
+    * '마이홈' 기능 설계
+    * 기존 데이터를 취합하여 생리 건강 카테고리별 계산 방법을 고민한 뒤 알고리즘 적용
+    * 서비스 운영 중인 앱 성능을 고려하여 10만개의 데이터를 페이징하여 처리, Spring Data JPA 를 활용
+    * 예외 상황 별 테스트 진행한 뒤, 카테고리별 평균, 최근 데이터를 계산하여 새로운 table 에 이관
+    * Spring Boot, Spring Data JPA, Querydsl, MySQL 기술 활용
+
+- layout: left

@@ -98,8 +98,33 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>줌인터넷(ZUM Internet)</h4>
 <a href="https://www.zuminternet.com/" target="_blank" class="link">https://www.zuminternet.com/</a><p><b>포털개발팀 포털백엔드 개발파트 백엔드 개발</b></p><p>2022.08 ~ 현재</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote"></p><ul>
-  <li>레거시 프로젝트인 리다이렉트 서버와 타겟팅 서버 리팩토링 및 AWS 이관, Spring Data Redis, EhCache, Logback 활용</li>
-  <li>쇼핑줌 Spring Batch 작업</li>
+  <li><a href="https://zuminternet.github.io/redirect-refactoring/">줌인터넷 리다이렉트 서버 리팩토링 및 AWS 마이그레이션</a></li>
+  <li>앱/웹 푸시 클릭, 노출 pv 통계를 위한 리다이렉트 서버와 푸시 서버와의 연동 진행</li>
+  <li>타겟팅 시스템 리팩토링 : 줌 포털 사이트에서 쿠키값을 활용하여 타겟팅 데이터를 Aerospike 에 적재하고 있었으나 이를 Redis 저장소로 변경하면서 전체적인 리팩토링을 담당</li>
+  <li>Spring Boot, Spring Data JPA, Querydsl, MySQL, EhCache, Logback, Redis, Aerospike</li>
+</ul>
+
+<hr />
+<ul>
+  <li>투자 뉴스레터 구독자 모집 및 레터 전송 기능</li>
+  <li>예약 발송을 위해서 DynamoDB 에 예약일과 template 을 등록한 뒤 Spring Boot Batch 를 활용하여 cron 실행, 예약 발송 건이 있을 경우 이메일 RabbitMQ 에 들어가도록 구현</li>
+  <li>구독자, 발신인, 구독 취소 등 정보를 활용하기 위한 뉴스레터 CMS 구현</li>
+  <li>Spring Boot, Spring Data JPA, Querydsl, MySQL, DynamoDB, RabbitMQ, Vue.js</li>
+</ul>
+
+<hr />
+<ul>
+  <li>쇼핑 batch 서스테이닝 업무</li>
+  <li>쇼핑 데이터 관련 batch 시스템 관리 및 url 추가 업무 진행</li>
+  <li>Spring Boot, Spring Batch</li>
+</ul>
+
+<hr />
+<ul>
+  <li>회원, 댓글, 고객센터 서스테이닝 업무</li>
+  <li>댓글 모듈 숨김 처리 진행</li>
+  <li>회원 서비스 관련 이슈 처리</li>
+  <li>Spring Boot, Spring Security, javascript, Vue.js</li>
 </ul>
 
   </div>
@@ -116,14 +141,55 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   
     <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>포들리</h4>
-<a href="https://www.pawdly.com/landing/" target="_blank" class="link">https://www.pawdly.com/landing/</a><p><b>Java & Spring 백엔드 개발자</b></p><p>2021.09 ~ 현재</p></div>
+<a href="https://www.pawdly.com/landing/" target="_blank" class="link">https://www.pawdly.com/landing/</a><p><b>Java & Spring 백엔드 개발자</b></p><p>2021.09 ~ 2022.06</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">반려동물이 이용하는 미용 및 동물병원의 편리한 예약과 함께 알림톡 서비스로 일정 관리까지 가능한 서비스
 </p><ul>
-  <li>‘포들리 파트너스센터’ 앱 런칭 및 유저앱 프로토타입 개발</li>
-  <li>MVP 초기 단계부터 설계 및 기획, 디자이너, 프론트 개발자와 협업</li>
-  <li>Java, Spring Boot, Mybatis 를 활용하여 RESTful API 개발</li>
-  <li>MariaDB, Spring Data Redis 활용</li>
-  <li>JUnit 단위 테스트 구현</li>
+  <li>포들리 유저앱 API 개발(https://www.notion.so/398856cea6e14d469c2f6cd51bb3e003)</li>
+  <li>도메인 추출, DB 설계 진행, NS 차트 및 활동 다이어그램 등을 활용하여 프로젝트 설계</li>
+  <li>JWT 토큰을 관리하기 위한 <strong>Spring Data Redis</strong> 활용</li>
+  <li>리액트 개발자와 협업을 위하여 문서화, TDD 를 통한 <strong>REST Docs</strong> 활용</li>
+  <li>Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포</li>
+  <li>Firebase, 오픈 API 연동</li>
+</ul>
+
+<hr />
+<ul>
+  <li>포들리 파트너스센터 API 개발</li>
+  <li>화면 분석 및 MVP 빠르게 개발하여 가설 검증 단계 진행</li>
+  <li>소셜 로그인 및 알림톡, push 기능을 더하여 고객 등록, 예약 등록, 재예약 문의 등록 플로우 개발</li>
+  <li>Spring Boot, MyBatis, Spring Security, Spring Batch, JWT 기술 활용</li>
+  <li>Firebase, 오픈 API 연동</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>씽즈</h4>
+<a href="https://monthlything.com/" target="_blank" class="link">https://monthlything.com/</a><p><b>Java & Spring 백엔드 인턴</b></p><p>2020.12 ~ 2021.04</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">여성을 가장 잘 아는 헬스케어 기업, 생리 다이어리 기록 및 상품 판매 서비스
+</p><ul>
+  <li>마이 홈 기능 주도적 설계 및 개발</li>
+  <li>사내 Admin 페이지 개발</li>
+  <li>모바일 개발을 위한 RESTful API 서버 개발</li>
+</ul>
+
+<hr />
+<ul>
+  <li>‘마이홈’ 기능 설계</li>
+  <li>기존 데이터를 취합하여 생리 건강 카테고리별 계산 방법을 고민한 뒤 알고리즘 적용</li>
+  <li>서비스 운영 중인 앱 성능을 고려하여 10만개의 데이터를 페이징하여 처리, Spring Data JPA 를 활용</li>
+  <li>예외 상황 별 테스트 진행한 뒤, 카테고리별 평균, 최근 데이터를 계산하여 새로운 table 에 이관</li>
+  <li>Spring Boot, Spring Data JPA, Querydsl, MySQL 기술 활용</li>
 </ul>
 
   </div>
@@ -143,9 +209,22 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   <h3>Projects</h3>
   
     <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>레거시 시스템 리팩토링</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote"></p><ul>
-  <li><a href="https://zuminternet.github.io/redirect-refactoring/">줌인터넷 리다이렉트 서버 리팩토링 및 AWS 마이그레이션</a></li>
+  <div class="col-xs-12 col-print-12 details"></div>
+  <div class="col-xs-12 col-print-12">
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>디프만 13기</h4>
+<a href="https://github.com/depromeet/oversweet-core" target="_blank" class="link">https://github.com/depromeet/oversweet-core</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">2023.04.08 ~ 2023.07.22
+</p><ul>
+  <li>디자이너, 프로그래머가 만나 사이드 프로젝트 활동 진행</li>
+  <li>음료의 당을 기록하여 하루 목표 권장량 보다 적게 먹을 수 있도록 관리 및 기록하는 앱</li>
+  <li>팀원들과 인프런 DDD 강의 수강한 뒤 이벤트 스토밍 진행, SOLID 규칙을 준수하기 위한 설계 진행</li>
+  <li>AWS ECR, ECS, Github Actions 배포 프로세스</li>
 </ul>
 
   </div>
@@ -161,39 +240,14 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 
   
     <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>포들리 유저앱 API 개발</h4>
-<a href="https://www.notion.so/398856cea6e14d469c2f6cd51bb3e003" target="_blank" class="link">https://www.notion.so/398856cea6e14d469c2f6cd51bb3e003</a></div>
-  <div class="col-xs-12 col-print-12"><p class="quote">2022.04.20 ~ 2022.06.24
+  <div class="col-xs-12 col-print-12 details"><h4>비사이드 13기</h4></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">2022.10.22 ~ 2023.01.11
 </p><ul>
-  <li>도메인 추출, DB 설계 진행</li>
-  <li>NS 차트, 활동 다이어그램 등을 활용하여 프로젝트 설계</li>
-  <li>JWT 토큰을 관리하기 위한 <strong>Spring Data Redis</strong> 활용</li>
-  <li>리액트 개발자와 협업을 위하여 문서화, TDD 를 통한 <strong>REST Docs</strong> 활용</li>
-  <li>Spring Boot, MyBatis, Spring Security 기술 활용하여 설계한 뒤 배포</li>
-  <li>Firebase, 오픈 API 연동</li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"></div>
-  <div class="col-xs-12 col-print-12">
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>포들리 파트너스센터 API 개발</h4></div>
-  <div class="col-xs-12 col-print-12"><p class="quote">2021.11.01 ~ 2022.04.01
-</p><ul>
-  <li>화면 분석 및 MVP 빠르게 개발하여 가설 검증 단계 진행</li>
-  <li>소셜 로그인 및 알림톡, push 기능을 더하여 고객 등록, 예약 등록, 재예약 문의 등록 플로우 개발</li>
-  <li>리액트 개발자와 협업하며 리팩토링 진행</li>
-  <li>Spring Boot, MyBatis, Spring Security, Spring Batch, JWT 기술 활용</li>
-  <li>Firebase, 오픈 API 연동</li>
+  <li>기획자, 디자이너, 프론트엔드 개발자, 백엔드 개발자가 만나 사이드 프로젝트 활동 진행</li>
+  <li>‘술렁술렁’ 앱 설계, 다양한 술을 즐겨 마시는 2030 세대들을 타겟팅으로 하여 그 날 마신 술과 감정을 기록하는 앱 개발</li>
+  <li>애플, 카카오 회원가입 및 로그인, 회원 탈퇴 기능, 일기 등록 및 삭제 기능 설계</li>
+  <li>Naver Cloud 서버 설정 및 SSL 적용</li>
+  <li>Spring Boot, Spring Security, JWT, Spring Data JPA, Querydsl, OpenFeign, MySQL, Naver Cloud</li>
 </ul>
 
   </div>
@@ -224,14 +278,6 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   <li>분류의 정확도가 높았던 모델은 DNN 이었으며, 예측은 전반적으로 정확도가 낮았음.
 (* 가장 영향을 많이 미치는 요소는 산미였음.)</li>
 </ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"></div>
-  <div class="col-xs-12 col-print-12">
 
   </div>
 </div>
